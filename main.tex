@@ -1,5 +1,9 @@
 \documentclass[UTF8,zihao=-4,linespread=1.5]{ctexart}
 
+\ctexset{
+    abstractname = {\zihao{-2}\heiti 摘 \qquad 要} % 摘要标题格式
+}
+
 % Word 默认页边距
 \usepackage[a4paper,top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
 
@@ -70,10 +74,18 @@
 
     \begin{center}
         \zihao{3} \kaishu \bfseries
-        20XX年X月
+        20XX 年 X 月
     \end{center}
 
 \end{titlepage}
+
+\begin{abstract}
+
+    摘要内容。
+
+\end{abstract}
+
+\newpage
 
 % -------------------------------------------------------- %
 \section{这是一级标题}
